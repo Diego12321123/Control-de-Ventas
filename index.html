@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Control de Ventas</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1 id="headerTitle">Control de Ventas</h1>
+      <p>Papelería · Impresiones · Recargas · Pagos</p>
+    </div>
+  </header>
+
+  <main id="app" class="app-shell"></main>
+
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+  <script src="storage.js"></script>
+  <script src="auth.js"></script>
+  <script src="reports.js"></script>
+  <script src="calendar.js"></script>
+  <script src="charts.js"></script>
+  <script src="backup.js"></script>
+  <script src="alerts.js"></script>
+  <script src="ticket.js"></script>
+  <script src="ai.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
